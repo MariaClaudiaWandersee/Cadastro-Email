@@ -1,0 +1,72 @@
+body {
+    font-family: verdana;
+    background-color: #10151C;
+    color: white;
+}
+
+.modal {
+    border-radius: 15px 0px 0px 15px;
+    background-color: #2F3844;
+    position: relative;
+    width: 478px;
+    height: 478px;
+    top: 50px;
+    left: 182px;
+}
+
+.titulo-inicial {
+    position: relative;
+    top: 45px;
+    left: 131px;
+    width: 212px;
+}
+
+.subtitulo-inicial {
+    position: relative;
+    top: 66px;
+    left: 28px;
+    width: 412px;
+    text-align: center;
+}
+
+.form-control {
+    position: relative;
+    top: 170px;
+    left: 62px;
+    width: 297px;
+    height: 47px;
+    border-radius: 28px;
+    color: black;
+    border: none;
+}
+
+.btn-enviar{
+    position: relative;
+    top: 170px;
+    left: -8px;
+    border: none;
+    border-radius: 28px;
+    width: 76px;
+    height: 49px;
+    background-color: #3B40FD;
+    cursor: pointer;
+}
+
+.modal-foto {
+    border-radius: 0px 15px 15px 0px;
+    background-color: #CFCACA;
+    position: relative;
+    width: 478px;
+    height: 478px;
+    top: -428px;
+    left: 660px;
+}
+
+.img-principal {
+    position: relative;
+    top: 0px;
+    border-radius: 0px 15px 15px 0px;
+    height: 478px;
+    width: 478px;
+}
+
