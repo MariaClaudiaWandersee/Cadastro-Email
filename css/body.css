@@ -2,6 +2,9 @@ body {
     font-family: verdana;
     background-color: #10151C;
     color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .modal {
@@ -32,18 +35,19 @@ body {
 .form-control {
     position: relative;
     top: 170px;
-    left: 62px;
+    left: 81px;
     width: 297px;
     height: 47px;
     border-radius: 28px;
     color: black;
     border: none;
+    box-shadow: 5px 4px 8px black;
 }
 
 .btn-enviar{
     position: relative;
     top: 170px;
-    left: -8px;
+    left: 2px;
     border: none;
     border-radius: 28px;
     width: 76px;
@@ -70,3 +74,34 @@ body {
     width: 478px;
 }
 
+footer {
+    background-color: #1A2129;
+    width: 100%;
+    height: 36px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.icon-footer {
+    position: relative;
+    top: 6px;
+    left: 45px;
+}
+
+.txt-footer {
+    position: relative;
+    top: -17px;
+    font-size: 9px;
+    left: 59px;
+    width: 197px;
+}
+
+.privacy {
+    position: relative;
+    top: -37px;
+    font-size: 9px;
+    left: 217px;
+    width: 33px;
+    color: #3B40FD;
+}
