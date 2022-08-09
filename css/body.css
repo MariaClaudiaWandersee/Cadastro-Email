@@ -5,6 +5,16 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #1A2129;
+    width: 100%;
+    height: 36px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .modal {
@@ -41,13 +51,26 @@ body {
     border-radius: 28px;
     color: black;
     border: none;
+    outline: none;
     box-shadow: 5px 4px 8px black;
 }
 
-.btn-enviar{
+/* .btn-enviar{
     position: relative;
     top: 170px;
     left: 2px;
+    border: none;
+    border-radius: 28px;
+    width: 76px;
+    height: 49px;
+    background-color: #3B40FD;
+    cursor: pointer;
+} */
+
+.flecha-env {
+    position: relative;
+    top: 190px;
+    left: -1px;
     border: none;
     border-radius: 28px;
     width: 76px;
