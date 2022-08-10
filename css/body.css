@@ -12,7 +12,6 @@ nav {
     background-color: #1A2129;
     width: 100%;
     height: 36px;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
@@ -23,8 +22,8 @@ nav {
     position: relative;
     width: 478px;
     height: 478px;
-    top: 50px;
-    left: 182px;
+    top: 19px;
+    left: 194px;
 }
 
 .titulo-inicial {
@@ -50,22 +49,10 @@ nav {
     height: 47px;
     border-radius: 28px;
     color: black;
-    border: none;
+    border-color: #3B40FD;
     outline: none;
     box-shadow: 5px 4px 8px black;
 }
-
-/* .btn-enviar{
-    position: relative;
-    top: 170px;
-    left: 2px;
-    border: none;
-    border-radius: 28px;
-    width: 76px;
-    height: 49px;
-    background-color: #3B40FD;
-    cursor: pointer;
-} */
 
 .flecha-env {
     position: relative;
@@ -85,8 +72,8 @@ nav {
     position: relative;
     width: 478px;
     height: 478px;
-    top: -428px;
-    left: 660px;
+    top: -459px;
+    left: 672px;
 }
 
 .img-principal {
@@ -127,4 +114,20 @@ footer {
     left: 217px;
     width: 33px;
     color: #3B40FD;
+}
+
+.icon-insta {
+    position: relative;
+    top: -59px;
+    left: 641px;
+    width: 17px;
+    cursor: pointer;
+}
+
+.icon-github {
+    position: relative;
+    top: -59px;
+    left: 641px;
+    width: 17px;
+    cursor: pointer;
 }
